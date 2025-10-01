@@ -15,6 +15,10 @@ composer install
 echo "Installing/Updating Node.js dependencies..."
 npm install
 
+# Run database migrations
+echo "Running database migrations..."
+php artisan migrate
+
 # Start development servers
 echo "Starting development servers..."
 composer run dev
