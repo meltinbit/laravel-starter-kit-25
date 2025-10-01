@@ -14,7 +14,7 @@ This is a Laravel starter kit that provides a solid foundation for building web 
 1. Clone the repository:
 
     ```bash
-    git clone <repository-url> my-new-app-name
+    git clone https://github.com/meltinbit/laravel-starter-kit-25.git my-new-app-name
     cd laravel-starter-kit-25
     ```
 
