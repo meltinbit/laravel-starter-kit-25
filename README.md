@@ -14,7 +14,7 @@ This is a Laravel starter kit that provides a solid foundation for building web 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/meltinbit/laravel-starter-kit-25.git my-new-app-name
+    git clone <repository-url> my-new-app-name
     cd laravel-starter-kit-25
     ```
 
@@ -49,11 +49,33 @@ This is a Laravel starter kit that provides a solid foundation for building web 
     ```
 
 7. Start the development server:
+
+    You can start the development server in two ways:
+
+    a. Using the provided development script:
+
+    ```bash
+    # First time only
+    chmod +x dev.sh
+
+    # Then run
+    ./dev.sh
+    ```
+
+    This script will automatically:
+    - Create .env file if it doesn't exist
+    - Generate application key if needed
+    - Install/update PHP dependencies
+    - Install/update Node.js dependencies
+    - Start both the Laravel server and Vite
+
+    b. Or manually:
+
     ```bash
     composer run dev
     ```
 
-This will start both the Laravel development server and Vite for asset compilation. Your application will be available at [http://localhost:8000](http://localhost:8000).
+    Either way, your application will be available at [http://localhost:8000](http://localhost:8000).
 
 ## Available Commands
 
